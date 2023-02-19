@@ -13,9 +13,9 @@ import ssl
 def send_email(price):
     smtp_port = 587
     smtp_server = "smtp.gmail.com" # server email
-    email_from = "pythonmaycon@gmail.com" # sender email used to sent the email notification price 
-    email_to = "pythonmaycon@hotmail.com" # receiver email 
-    pswd = "yxxdynmayydpdgrw"
+    email_from = "###################" # sender email used to sent the email notification price 
+    email_to = "##################" # receiver email 
+    pswd = ################## Here goes the password that google ill generate for you 
     
 
     simple_email_context = ssl.create_default_context()
@@ -34,7 +34,7 @@ def send_email(price):
     finally:
         TIE_server.quit()
 
-api_key = "E4AQNA3ASHC1ZKZW" # Here we got a api key from the website AlphaVantage to connect to the data 
+api_key = "####################" # Here we got a api key from the website AlphaVantage to connect to the data 
 symbol = "BTC" # Bitcoin symbol 
 
 while True:
